@@ -1,9 +1,9 @@
 {
-  "name": "quiz",
+  "name": "quiz-questions",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ZdravkoKirilov.github.io/quiz",
+  "homepage": "https://zdravkokirilov.github.io/quiz-questions",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
