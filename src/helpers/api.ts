@@ -26,8 +26,8 @@ export type Question = Omit<UpdateQuestionDto, "answers"> & {
   updatedAt?: Date;
 };
 
-let currentQuestionId = 0;
-let currentAnswerId = 0;
+let currentQuestionId = 1;
+let currentAnswerId = 1;
 
 let questions = [
   {
