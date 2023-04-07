@@ -27,7 +27,7 @@
 
 ## Goals
 
-- accompanies a technical article showing a way to structure heavy CRUD operations on the FE with the help of custom hooks
+- accompanies a [technical article](https://dev.to/zdravkokirilov/the-hook-of-all-trades-or-how-i-simplify-big-react-components-bod) showing a way to structure heavy CRUD operations on the FE with the help of custom hooks
 
 ## Running it locally:
 
