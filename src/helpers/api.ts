@@ -26,9 +26,62 @@ export type Question = Omit<UpdateQuestionDto, "answers"> & {
   updatedAt?: Date;
 };
 
-let questions = [] as Question[];
 let currentQuestionId = 0;
 let currentAnswerId = 0;
+
+let questions = [
+  {
+    id: currentQuestionId++,
+    title: "What is the maximum weight of a male African elephant?",
+    hint: "About 35 tigers",
+    answers: [
+      {
+        id: currentAnswerId++,
+        title: "1000 kg",
+        points: 0,
+      },
+      {
+        id: currentAnswerId++,
+        title: "2000 kg",
+        points: 5,
+      },
+      {
+        id: currentAnswerId++,
+        title: "4300 kg",
+        points: 20,
+      },
+      {
+        id: currentAnswerId++,
+        title: "6300 kg",
+        points: 50,
+      },
+    ],
+    createdAt: new Date(),
+  },
+  {
+    id: currentQuestionId++,
+    title: "How many hours a day do domestic cats spend sleeping?",
+    hint: "More than 2 humans",
+    answers: [
+      {
+        id: currentAnswerId++,
+        title: "Up to 10 hours",
+        points: 0,
+      },
+      {
+        id: currentAnswerId++,
+        title: "Between 10 and 15 hours",
+        points: 5,
+      },
+      {
+        id: currentAnswerId++,
+        title: "Between 16 and 20 hours",
+        points: 20,
+      },
+    ],
+    createdAt: new Date(),
+  },
+] as Question[];
 
 const getQuestions = () => {
   return questions;
