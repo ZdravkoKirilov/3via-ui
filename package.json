@@ -1,9 +1,9 @@
 {
-  "name": "quiz-questions",
+  "name": "3via-ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://zdravkokirilov.github.io/quiz-questions",
+  "homepage": "https://zdravkokirilov.github.io/3via-ui",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

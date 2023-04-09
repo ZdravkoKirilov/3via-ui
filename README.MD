@@ -8,7 +8,7 @@
 
 <br />
 
-[Live site](https://zdravkokirilov.github.io/quiz-questions/)
+[Live site](https://zdravkokirilov.github.io/3via-ui/)
 
 
 ## Technologies
@@ -35,7 +35,7 @@
 - make sure you have a recent version on NodeJS, e.g. - 16+
 - run ```npm i``` insde the project folder
 - once ready, run ```npm run dev```
-- open the browser at http://localhost:5173/quiz-questions/ or just check what the cmd says
+- open the browser at http://localhost:5173/3via-ui/ or just check what the cmd says
 
 
 
